@@ -1,62 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/output.css" rel="stylesheet" />
     <title>Log operation</title>
-  </head>
-  <body class="bg-gray-400">
+</head>
+
+<body class="bg-gray-400">
     <main class="flex flex-row">
-      <div>
-        <nav>
-          <ul>
-            <li><img src="./img/logo.png" alt="logo" class="w-40" /></li>
-            <li>TELA INICIAL</li>
-            <li>CADASTROS</li>
-            <li>RELATÓRIOS</li>
-            <li>GRÁFICOS</li>
-            <li>PCM</li>
-          </ul>
+        <nav class="p-10 bg-white h-screen">
+            <ul>
+                <li>
+                    <img src="./img/logo.png" alt="logo" class="w-40" /></a>
+                </li>
+                <li class="mt-4 p-1 rounded-lg text-center bg-blue-950 text-white">TELA INICIAL</li>
+                <li class="mt-4 p-1 rounded-lg text-center bg-blue-950 text-white">CADASTROS</li>
+                <li class="mt-4 p-1 rounded-lg text-center bg-blue-950 text-white">RELATÓRIOS</li>
+                <li class="mt-4 p-1 rounded-lg text-center bg-blue-950 text-white">GRÁFICOS</li>
+                <li class="mt-4 p-1 rounded-lg text-center bg-blue-950 text-white">PCM</li>
+                <p class=" text-blue-950 pb-5 fixed w-40 text-center bottom-0">V.3.0.14</p>
+            </ul>
         </nav>
-      </div>
-      <div>
-        <div>
-          <h1>RELATÓRIO LOG OPERATION</h1>
-          <div>
-            <div>
-              <h2>data inicial</h2>
-              <input type="date" name="data-inicial" id="" />
-            </div>
-            <div>
-              <h2>hora inicial</h2>
-              <input type="time" name="hora-inicial" id="" />
-            </div>
-            <div>
-              <h2>data final</h2>
-              <input type="date" name="data-inicial" id="" />
-            </div>
-            <div>
-              <h2>hora final</h2>
-              <input type="time" name="hora-inicial" id="" />
-            </div>
-            <div>
-              <button>Buscar</button>
-            </div>
-          </div>
-        </div>
-        <div>
-          <table>
-            <tr>
-              <td>#</td>
-              <td>evento</td>
-              <td>comentário</td>
-              <td>usuário</td>
-              <td>ações</td>
-            </tr>
-          </table>
-        </div>
-      </div>
     </main>
-  </body>
+</body>
+
 </html>
