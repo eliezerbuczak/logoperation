@@ -8,7 +8,7 @@
     <title>Log operation</title>
 </head>
 
-<body class="bg-gray-400">
+<body class="bg-gray-300">
     <main class="flex flex-row">
         <nav class="p-10 bg-white h-screen">
             <ul>
@@ -23,10 +23,31 @@
                 <p class=" text-blue-950 pb-5 fixed w-40 text-center bottom-0">V.3.0.14</p>
             </ul>
         </nav>
-        <div class="m-20 w-5/6">
+        <div class="m-20 w-5/6 flex-col flex">
             <h1 class="font-bold font tracking-wider text-4xl uppercase">
                 relatório log operation
             </h1>
+            <div class="flex flex-row bg-white px-10 py-3 justify-between rounded-md mt-2">
+                <div class="flex flex-col w-1/6">
+                    <label for="data-inicial" class="uppercase font-medium">data inicial</label>
+                    <input type="date" name="data-inicial" id="data-inicial" class="bg-gray-300 text rounded-md" />
+                </div>
+                <div class="flex flex-col w-1/6">
+                    <label for="hora-inicial" class="uppercase font-medium">hora inicial</label>
+                    <input type="time" name="hora-inicial" id="hora-inicial" class="bg-gray-300 text rounded-md" />
+                </div>
+                <div class="flex flex-col w-1/6">
+                    <label for="data-final " class="uppercase font-medium">data final</label>
+                    <input type="date" name="data-final" id="data-final" class="bg-gray-300 text rounded-md" />
+                </div>
+                <div class="flex flex-col w-1/6">
+                    <label for="hora-final" class="uppercase font-medium">hora inicial</label>
+                    <input type="time" name="hora-final" id="hora-final" class="bg-gray-300 text rounded-md" />
+                </div>
+                <div class="flex flex-col w-1/6">
+                    <button class="h-full rounded-lg text-center bg-blue-950 text-white">Buscar</button>
+                </div>
+            </div>
         </div>
 
 
